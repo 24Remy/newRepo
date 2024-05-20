@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link rel="styelesheet" href="Nahh.css">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-image: url('Cloud.jpg');
+        background-size: cover;  
+    }
+    div.main {
+        width: 380px;
+        margin: 50px auto 0px auto; 
+    }
+    h1 {
+        
+        
+        text-align: center;
+    }
+    div.register {
+        
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%; 
+        font-size: 18px;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        align-items: center;
+    }
+    form#register{
+        margin: 40px;
+    }
+    label{
+        
+        font-size: 18px;
+        font-style: bold;
+        color:rgb(1, 10, 35);
+    }
+    
+    .sub{
+        width: 200px;
+        padding:7px;
+        -size: 16px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        font-weight: 600;
+        border:none;
+        border-radius:3px;
+        background-color: gold;
+        color:wheat;
+        cursor: pointer;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);  
+        margin-bottom: 20px;     
+    }
+    .submit-button {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .submit-button:active {
+        background-color: #3e8e41;
+    }
+    label,span,h2{
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    }
+    select{
+        color:Black;
+      }
+     
+      
+</style>
+<body>
+   
+    <div class="main">
+        <div class="register">
+            <h1>Registration</h1>
+            <form id="register" method="post">
+                <label>First name:</label><br>
+                <input type="text" name="fname" placeholder="First name" id="name"><br>
+                <label>Last name:</label><br>
+                <input type="text" name="Lname" placeholder="Last name" id="Name"><br>
+                <label>Email</label><br>
+                <input type="email" name="email" placeholder="Enter a valid Email" required><br>
+                <label >Phone Number:</label><br>
+                <input type="number" name="Phone Number" placeholder="Enter phone number"><br>
+            </label>  <br>             
+                
+                <label>Gender:</label><br>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" id="male">
+                <span id="male">male</span>
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="Gender" id="female">
+                <span id="female">female</span><br>
+                <button class="sub">submit</button>
+                
+          
+            </form>
+
+        </div>  
+      
+
+    </div>
+    </body>
+    
+</html>
