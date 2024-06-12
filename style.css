@@ -1,0 +1,337 @@
+
+
+body {
+    width: 100%;
+    height: auto;
+    background: #000000; /* Dark smoky black */
+    position: relative;
+    font-family: Arial, sans-serif;
+    color: #f5f5f5; /* Light text for contrast */
+}
+
+.headers {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1a1a1a; /* Darker smoky black */
+    padding: 0 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+
+nav {
+    margin-left: auto;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #00bfff; /* Electric blue */
+    padding: 15px 20px;
+    color: #000000; /* Darker smoky black for contrast */
+    border-radius: 10px;
+    transition: 0.8s all;
+}
+
+nav ul li a:hover {
+    background-color: #000000; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+    box-shadow: 0 1px 3px #00bfff;
+}
+
+.home {
+    background-color: #1a1a1a; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+}
+
+.log {
+    cursor: pointer;
+}
+
+h1 {
+    color: #00bfff; /* Electric blue */
+    font-size: 30px;
+}
+
+b {
+    font-size: 50px;
+    color: #f5f5f5; /* Light text for contrast */
+    text-shadow: 0 1px 3px #00bfff; /* Electric blue */
+}
+
+.caption {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 20px 0;
+}
+
+.port1 {
+    padding: 2px;
+    position: relative;
+    width: 510px;
+    height: 460px;
+    background-color: #2c2c2c; /* Dark smoky black */
+    margin: 0 25px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+h6 {
+    color: #00bfff; /* Electric blue */
+    font-size: 15px;
+}
+
+h2 {
+    color: #00bfff; /* Electric blue */
+    font-size: 20px;
+}
+
+h5 {
+    color: #000000; /* Electric blue */
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 50px auto 0 auto;
+    display: block;
+    outline: none;
+    background: #00bfff; /* Electric blue */
+    color: #1a1a1a; /* Darker smoky black */
+    border: none;
+    transition: 2s;
+    cursor:pointer;
+}
+
+button:hover {
+    background: #1a1a1a; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+    box-shadow: 0 2px 4px #00bfff;
+}
+
+h3 {
+    text-align: center;
+    color: #00bfff; /* Electric blue */
+    font-size: 25px;
+    margin: 20px;
+}
+
+.simple_introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.simple, .simples {
+    width: 400px;
+    height: 350px;
+    cursor: pointer;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px #00bfff; /* Electric blue */
+    transition: 1s all;
+    margin: 10px;
+    background-color: #1a1a1a; /* Darker smoky black */
+}
+
+.simple:hover, .simples:hover {
+    transform: scale(1.1);
+}
+
+.simple:hover {
+    background-color: #00bfff; /* Electric blue */
+    color: #1a1a1a; /* Darker smoky black */
+}
+
+.simples:hover {
+    background-color: #00bfff; /* Electric blue */
+    color: #1a1a1a; /* Darker smoky black */
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.gallery h2 {
+    color: #00bfff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.gallery-images img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    margin: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+.intoductionss {
+    display: flex;
+    justify-content: center;
+    margin: 20px 60px;
+}
+
+.right {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px #00bfff; /* Electric blue */
+    margin: 0 25px;
+    transition: 1.1s all;
+    background-color: #1a1a1a; /* Darker smoky black */
+}
+
+.right:hover {
+    background: #00bfff; /* Electric blue */
+    color: #1a1a1a; /* Darker smoky black */
+    transform: scale(1.1);
+}
+
+.right h3 {
+    color: #00bfff; /* Electric blue */
+}
+
+.imgs {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/* Contact section */
+.get {
+    height: 70vh;
+    background: #1a1a1a; /* Darker smoky black */
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.imgs {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.get {
+    height: 70vh;
+    /* Darker smoky black */
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    background:transparent; /* Dark smoky black */
+    box-shadow: 2px 4px 8px #00bfff; /* Electric blue */
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.h4 {
+    text-align: center;
+    color: #00bfff; /* Electric blue */
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #00bfff; /* Electric blue */
+    padding: 10px;
+    margin: 10px 0;
+    background: #2c2c2c; /* Dark smoky black */
+    font-size: 18px;
+    color: #f5f5f5; /* Light text for contrast */
+    outline: none;
+    transition: border-bottom 0.3s;
+}
+
+.input:focus {
+    border-bottom: 2px solid #00bfff; /* Electric blue */
+}
+
+.u{
+    border-bottom: 2px solid #00bfff
+}
+.radio {
+    margin: 10px 0;
+}
+
+label {
+    color: #f5f5f5; /* Light text for contrast */
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: #f5f5f5; /* Light text for contrast */
+    font-size: 15px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    background: #00bfff; /* Electric blue */
+    color: #1a1a1a; /* Darker smoky black */
+    border: none;
+    transition: background 0.4s, color 0.4s;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background: #1a1a1a; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    color:  #00bfff;; /* Darker smoky black */
+}
