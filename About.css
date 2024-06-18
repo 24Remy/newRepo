@@ -1,0 +1,146 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Dark smoky black background */
+    color: #f5f5f5; /* Light text for contrast */
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* Header styling */
+.headers {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1a1a1a; /* Darker smoky black */
+    padding: 0 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.log {
+    cursor: pointer;
+}
+
+.log h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00bfff; /* Electric blue */
+}
+
+.log h1 b {
+    font-size: 50px;
+    color: #f5f5f5; /* Light text for contrast */
+    text-shadow: 0 1px 3px #00bfff; /* Electric blue */
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #00bfff; /* Electric blue */
+    padding: 15px 20px;
+    color: #1a1a1a; /* Darker smoky black for contrast */
+    border-radius: 10px;
+    transition: 0.8s all;
+}
+
+nav ul li a:hover {
+    background-color: #1a1a1a; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+    box-shadow: 0 1px 3px #00bfff;
+}
+
+.about {
+    background-color: #1a1a1a; /* Darker smoky black */
+    color: #00bfff; /* Electric blue */
+}
+
+/* About Section Styling */
+.about-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #222; /* Slightly lighter smoky black for contrast */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Electric blue shadow */
+}
+
+.about-section h2 {
+    color: #00bfff; /* Electric blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team {
+    margin-top: 40px;
+}
+
+.team h3 {
+    color: #00bfff; /* Electric blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: #1a1a1a; /* Darker smoky black */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.member-img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h4 {
+    color: #00bfff; /* Electric blue */
+    margin: 10px 0 5px;
+}
+
+.member p {
+    color: #f5f5f5; /* Light text for contrast */
+    margin: 5px 0;
+}
+
+/* Footer styling */
+.footer {
+    /* Darker smoky black background */
+    color: #00bfff; /* Electric blue */
+    text-align: center;
+}
